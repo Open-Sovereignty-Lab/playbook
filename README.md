@@ -38,7 +38,7 @@ This playbook provides the tools for tribes to hold encryption keys outside the 
 ## Repository Structure *(coming soon)*
 
 ```
-tribal-sovereign-cloud-playbook/
+playbook/
 ├── docs/
 │   ├── white-paper.md
 │   ├── implementation-guide.md
