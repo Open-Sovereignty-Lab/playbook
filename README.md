@@ -38,7 +38,7 @@ This playbook provides the tools for tribes to hold encryption keys outside the 
 ## Repository Structure *(coming soon)*
 
 ```
-playbook/
+tribal-sovereign-cloud-playbook/
 ├── docs/
 │   ├── white-paper.md
 │   ├── implementation-guide.md
@@ -86,4 +86,4 @@ Interested in piloting this framework with your tribe or contributing to develop
 
 ---
 
-*A project of [Open Sovereignty Lab](https://github.com/OpenSovereigntyLab) — Presented at TribalNet 2026*
+*A project of [Open Sovereignty Lab](https://github.com/OpenSovereigntyLab/playbook) — Presented at TribalNet 2026*
