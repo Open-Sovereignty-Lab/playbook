@@ -86,4 +86,4 @@ Interested in piloting this framework with your tribe or contributing to develop
 
 ---
 
-*A project of [Open Sovereignty Lab](https://github.com/OpenSovereigntyLab/playbook) — Presented at TribalNet 2026*
+*A project of [Open Sovereignty Lab](https://github.com/Open-Sovereignty-Lab) — Presented at TribalNet 2026*
