@@ -10,6 +10,7 @@ export default defineConfig({
     starlight({
       title: 'OSL Playbook',
       description: 'Tribal Data Sovereignty Cloud Playbook',
+      disable404Route: true,
       customCss: ['./src/styles/theme.css'],
       social: [
         {
