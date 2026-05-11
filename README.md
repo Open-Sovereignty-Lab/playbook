@@ -2,13 +2,7 @@
 
 **An open-source framework helping Tribal Nations adopt major cloud platforms without ceding sovereign control over their data.**
 
----
-
-## 🚧 Under Active Development
-
-This repository is under active development. Full documentation, implementation guides, templates, and tools are coming soon.
-
-**For full project information, visit:** [580strategies.com](https://580strategies.com/)
+**Live site:** [open-sovereignty-lab.github.io/playbook](https://open-sovereignty-lab.github.io/playbook/)
 
 ---
 
@@ -16,14 +10,24 @@ This repository is under active development. Full documentation, implementation 
 
 Tribal Nations face a fundamental paradox: modern cloud platforms can close the digital divide, but standard cloud contracts require surrendering data sovereignty. This playbook resolves that paradox through **cryptographic enforcement** — giving tribes technical, not just contractual, control over their data in the cloud.
 
-The playbook will include:
+The playbook is organized as a public documentation site backed by this repository.
 
-- **Terraform & CloudFormation templates** for sovereign cloud landing zones
-- **Legal templates** — tribal data addendums for Salesforce, AWS, and other vendors
+### Available now
+
+- **The framework** — a published site, a clear contribution path for non-developers, and resource categories (Guides, Templates, Tools, Case Studies) ready to receive content. See [CONTRIBUTING](./CONTRIBUTING.md) to add or revise material.
+
+### In progress
+
+Content is being authored externally and migrated into the repository as it is reviewed:
+
+- **Implementation guides** — sovereignty principles, key custody, and platform-by-platform tradeoffs
+- **Legal templates** — tribal data addendums for AWS, Salesforce, Azure, and GCP
 - **Policy documents** — AI governance, data classification, incident response
+- **Infrastructure-as-code** — Terraform sovereign landing zones
 - **Cost calculators** — TCO modeling and sovereignty premium analysis
-- **Implementation guides** — step-by-step configurations for AWS, Azure, GCP, and Salesforce
-- **Case studies** — real tribal implementations and lessons learned
+- **Case studies** — Tribal implementations sourced from the Nations themselves
+
+Track what lands in [CHANGELOG.md](./CHANGELOG.md).
 
 ---
 
@@ -74,7 +78,7 @@ This playbook was developed in consultation with Tribal Nations and draws on rea
 
 ## License
 
-This project will be released under the [MIT License](LICENSE) so any tribe or organization can freely use, adapt, and build on it.
+Released under the [MIT License](LICENSE) so any tribe or organization can freely use, adapt, and build on it.
 
 ---
 
