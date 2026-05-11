@@ -10,6 +10,7 @@ export default defineConfig({
     starlight({
       title: 'OSL Playbook',
       description: 'Tribal Data Sovereignty Cloud Playbook',
+      customCss: ['./src/styles/theme.css'],
       social: [
         {
           icon: 'github',
@@ -26,7 +27,6 @@ export default defineConfig({
         { label: 'Tools', autogenerate: { directory: 'docs/tools' } },
         { label: 'Case Studies', autogenerate: { directory: 'docs/case-studies' } },
       ],
-      // customCss is added in Task 4 — leave it out for now
     }),
   ],
 });
