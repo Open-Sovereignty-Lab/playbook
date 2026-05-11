@@ -1,0 +1,50 @@
+---
+// Shared footer used by custom Astro pages (homepage, about, 404).
+// Starlight pages have their own footer rendered by the theme.
+---
+
+<footer class="osl-footer">
+  <div class="osl-footer-row">
+    <a href="https://github.com/Open-Sovereignty-Lab" target="_blank" rel="noopener">Open Sovereignty Lab</a>
+    <span aria-hidden="true">·</span>
+    an initiative of <a href="https://580strategies.com/" target="_blank" rel="noopener">580strategies.com</a>
+    <span aria-hidden="true">·</span>
+    Presented at TribalNet 2026
+  </div>
+  <div class="osl-footer-row osl-footer-meta">
+    <a href="https://github.com/Open-Sovereignty-Lab/playbook" target="_blank" rel="noopener">Repo</a>
+    <span aria-hidden="true">·</span>
+    <a href="https://github.com/Open-Sovereignty-Lab/playbook/blob/main/LICENSE" target="_blank" rel="noopener">License (MIT)</a>
+    <span aria-hidden="true">·</span>
+    <a href="https://github.com/Open-Sovereignty-Lab/playbook/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Contributing</a>
+    <span aria-hidden="true">·</span>
+    <a href="https://github.com/Open-Sovereignty-Lab/playbook/blob/main/SECURITY.md" target="_blank" rel="noopener">Security</a>
+  </div>
+</footer>
+
+<style>
+  .osl-footer {
+    padding: 2rem;
+    text-align: center;
+    border-top: 1px solid var(--osl-border);
+    font-family: var(--osl-font-sans);
+    font-size: 0.8rem;
+    color: var(--osl-muted);
+  }
+  .osl-footer-row {
+    margin: 0 auto;
+    max-width: 60rem;
+    line-height: 1.8;
+  }
+  .osl-footer-meta {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+  }
+  .osl-footer a {
+    color: var(--osl-accent-light);
+    text-decoration: none;
+  }
+  .osl-footer a:hover {
+    text-decoration: underline;
+  }
+</style>
