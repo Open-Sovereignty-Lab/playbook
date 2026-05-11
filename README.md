@@ -35,25 +35,25 @@ This playbook provides the tools for tribes to hold encryption keys outside the 
 
 ---
 
-## Repository Structure *(coming soon)*
+## Repository Structure
 
 ```
 playbook/
-├── docs/
-│   ├── white-paper.md
-│   ├── implementation-guide.md
-│   └── case-studies/
-├── infrastructure/
-│   ├── terraform/
-│   ├── cloudformation/
-│   └── kubernetes/
-├── legal-templates/
-├── policies/
-├── tools/
-│   ├── cost-calculators/
-│   └── key-rotation-scripts/
-└── examples/
+├── site/                       # Astro + Starlight website source
+│   └── src/content/docs/docs/  # all markdown surfaced on the site
+│       ├── guides/             # long-form guidance
+│       ├── templates/          # legal addendums, policy templates, IaC
+│       ├── tools/              # calculators, scripts
+│       └── case-studies/       # Tribal implementation case studies
+├── infrastructure/             # raw Terraform, CloudFormation, Kubernetes
+├── legal-templates/            # raw .docx/.pdf templates
+├── policies/                   # raw policy artifacts
+├── tools/                      # raw tool artifacts
+├── examples/                   # raw example artifacts
+└── .github/workflows/          # GitHub Actions for build + deploy
 ```
+
+**Live site:** [open-sovereignty-lab.github.io/playbook](https://open-sovereignty-lab.github.io/playbook/) — auto-deployed from `main` whenever `site/**` changes.
 
 ---
 
