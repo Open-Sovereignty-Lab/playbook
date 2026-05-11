@@ -1,0 +1,103 @@
+---
+import '../styles/theme.css';
+import BrandWordmark from '../components/BrandWordmark.astro';
+import Footer from '../components/Footer.astro';
+
+const githubUrl = 'https://github.com/Open-Sovereignty-Lab/playbook';
+---
+
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page not found | OSL Playbook</title>
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}/favicon.svg`} />
+  </head>
+  <body>
+    <nav class="osl-nav">
+      <BrandWordmark />
+      <div class="osl-nav-links">
+        <a class="osl-nav-link" href={`${import.meta.env.BASE_URL}/`}>Home</a>
+        <a class="osl-nav-link" href={`${import.meta.env.BASE_URL}/docs/`}>Docs</a>
+        <a class="osl-nav-link" href={githubUrl} target="_blank" rel="noopener">GitHub →</a>
+      </div>
+    </nav>
+
+    <main class="osl-404">
+      <div class="osl-badge">404</div>
+      <h1>That page hasn't been built yet.</h1>
+      <p class="osl-subtitle">
+        The Playbook is under active development. Try the documentation, the homepage, or the
+        source repository.
+      </p>
+      <div class="osl-cta-group">
+        <a class="osl-btn osl-btn-primary" href={`${import.meta.env.BASE_URL}/docs/`}>Browse Docs →</a>
+        <a class="osl-btn osl-btn-secondary" href={`${import.meta.env.BASE_URL}/`}>Home</a>
+        <a class="osl-btn osl-btn-secondary" href={githubUrl} target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </main>
+
+    <Footer />
+
+    <style>
+      body {
+        background: var(--osl-bg);
+        color: var(--osl-text);
+        font-family: var(--osl-font-sans);
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .osl-nav {
+        padding: 1.25rem 2rem;
+        border-bottom: 1px solid var(--osl-border);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .osl-nav-links {
+        display: flex;
+        gap: 1.25rem;
+      }
+      .osl-nav-link {
+        font-size: 0.85rem;
+        color: var(--osl-muted);
+        text-decoration: none;
+      }
+      .osl-nav-link:hover {
+        color: var(--osl-text);
+      }
+
+      .osl-404 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 4rem 2rem;
+      }
+      .osl-404 h1 {
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
+        color: var(--osl-white);
+        margin: 1.5rem 0;
+        max-width: 600px;
+      }
+      .osl-subtitle {
+        font-size: 1rem;
+        color: var(--osl-muted);
+        max-width: 520px;
+        line-height: 1.7;
+        margin-bottom: 2.5rem;
+      }
+      .osl-cta-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+      }
+    </style>
+  </body>
+</html>

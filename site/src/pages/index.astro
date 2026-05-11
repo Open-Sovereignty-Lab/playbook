@@ -1,0 +1,152 @@
+---
+import '../styles/theme.css';
+import BrandWordmark from '../components/BrandWordmark.astro';
+import Footer from '../components/Footer.astro';
+import PillarGrid from '../components/PillarGrid.astro';
+
+const githubUrl = 'https://github.com/Open-Sovereignty-Lab/playbook';
+const signupUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfFz9pU47IBCFine9tyTOGUS6TlgbHeWr49MI7Gt38qF4bsKA/viewform?usp=preview';
+---
+
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribal Data Sovereignty Cloud Playbook | Open Sovereignty Lab</title>
+    <meta
+      name="description"
+      content="An open-source framework helping Tribal Nations adopt cloud platforms without ceding sovereign control over their data."
+    />
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}/favicon.svg`} />
+  </head>
+  <body>
+    <nav class="osl-nav">
+      <BrandWordmark />
+      <div class="osl-nav-links">
+        <a class="osl-nav-link" href={`${import.meta.env.BASE_URL}/docs/`}>Docs</a>
+        <a class="osl-nav-link" href={`${import.meta.env.BASE_URL}/about/`}>About</a>
+        <a class="osl-nav-link" href={githubUrl} target="_blank" rel="noopener">GitHub →</a>
+      </div>
+    </nav>
+
+    <section class="osl-hero">
+      <div class="osl-badge">Now Live &nbsp;·&nbsp; Content rolling out through 2026</div>
+
+      <h1>
+        Advancing Data Sovereignty and AI Readiness.<br />
+        <em>On Tribal Terms.</em>
+      </h1>
+
+      <p class="osl-subtitle">
+        Artificial intelligence and digital infrastructure are reshaping governance, education, and
+        economic development across Indian Country. Open Sovereignty Lab supports Tribal Nations
+        with practical frameworks, research, and implementation guidance that align emerging
+        technologies with Tribal sovereignty and community priorities.
+      </p>
+
+      <div class="osl-cta-group">
+        <a class="osl-btn osl-btn-primary" href={signupUrl} target="_blank" rel="noopener">Sign Up →</a>
+        <a class="osl-btn osl-btn-secondary" href={githubUrl} target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+
+      <PillarGrid />
+    </section>
+
+    <Footer />
+
+    <style>
+      body {
+        background: var(--osl-bg);
+        color: var(--osl-text);
+        font-family: var(--osl-font-sans);
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .osl-nav {
+        padding: 1.25rem 2rem;
+        border-bottom: 1px solid var(--osl-border);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .osl-nav-links {
+        display: flex;
+        gap: 1.25rem;
+      }
+      .osl-nav-link {
+        font-size: 0.85rem;
+        color: var(--osl-muted);
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      .osl-nav-link:hover {
+        color: var(--osl-text);
+      }
+
+      .osl-hero {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 5rem 2rem 0;
+        position: relative;
+        overflow: hidden;
+      }
+      .osl-hero::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(81, 132, 169, 0.18) 0%, transparent 70%);
+        pointer-events: none;
+      }
+      .osl-hero > * {
+        position: relative;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 5vw, 3.25rem);
+        font-weight: 700;
+        line-height: 1.15;
+        max-width: 760px;
+        margin: 1.5rem 0;
+        color: var(--osl-white);
+      }
+      h1 em {
+        font-style: normal;
+        color: var(--osl-accent-light);
+      }
+
+      .osl-subtitle {
+        font-size: clamp(1rem, 2vw, 1.2rem);
+        color: var(--osl-muted);
+        max-width: 580px;
+        line-height: 1.7;
+        margin-bottom: 3rem;
+      }
+
+      .osl-cta-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        margin-bottom: 5rem;
+      }
+
+      @media (max-width: 480px) {
+        .osl-nav {
+          flex-direction: column;
+          gap: 0.75rem;
+          text-align: center;
+        }
+        .osl-btn {
+          width: 100%;
+          justify-content: center;
+        }
+      }
+    </style>
+  </body>
+</html>

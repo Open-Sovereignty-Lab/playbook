@@ -19,6 +19,25 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) co
 
 ---
 
+## [0.2.0] — 2026-05-11
+
+### Added
+- Multipage Astro + Starlight website at `site/` with sidebar navigation, full-text search (Pagefind), light/dark mode, and edit-on-GitHub links
+- Four content sections: Guides, Templates, Tools, Case Studies
+- One reference example document per section
+- GitHub Actions workflow for automatic build and deploy on every push to `main`
+- Custom themed homepage, about page, and 404 page
+- 580 Strategies-derived brand palette and Roboto typography
+- "Adding a page to the website" section in CONTRIBUTING.md
+
+### Changed
+- Repository Structure section in README updated to reflect actual layout
+
+### Removed
+- Legacy single-page `index.html` (superseded by Astro homepage)
+
+---
+
 ## [0.1.0] — 2026-02-19
 
 ### Added

@@ -1,0 +1,31 @@
+---
+// Text-only wordmark placeholder for the OSL brand.
+// Replace with an SVG logo when one exists (drop into site/public/logo.svg
+// and swap this component's body for an <img>).
+export interface Props {
+  /** Show "/ playbook" subtitle. Defaults to true. */
+  showSubtitle?: boolean;
+}
+const { showSubtitle = true } = Astro.props;
+---
+
+<span class="brand-wordmark">
+  <strong>Open Sovereignty Lab</strong>{showSubtitle && (<span class="brand-subtitle"> / playbook</span>)}
+</span>
+
+<style>
+  .brand-wordmark {
+    font-family: var(--osl-font-sans);
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--osl-muted);
+  }
+  .brand-wordmark strong {
+    color: var(--osl-accent-light);
+    font-weight: 500;
+  }
+  .brand-subtitle {
+    color: var(--osl-muted);
+  }
+</style>

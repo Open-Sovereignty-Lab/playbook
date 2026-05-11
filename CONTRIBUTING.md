@@ -38,6 +38,34 @@ If you want to contribute content directly:
 
 All pull requests to `main` require review before merging.
 
+### 5. Add a page to the website
+
+Every page on the website is a markdown file in this repo under `site/src/content/docs/docs/`. Adding a page is the same as editing one.
+
+**Easy path (no local setup):**
+
+1. Browse to a similar page on the live site (e.g., an existing guide).
+2. Click **"Edit this page on GitHub"** in the page footer.
+3. Edit the file in GitHub's web editor (or use it as a template — copy the content into a new file in the same folder).
+4. Click **"Propose changes"** → opens a pull request.
+5. The PR build will validate your frontmatter. A maintainer will review and merge.
+6. The site updates within ~2 minutes of merge.
+
+**Local preview (optional):**
+
+```bash
+cd site
+npm install        # one-time
+npm run dev        # serves http://localhost:4321/playbook/
+```
+
+**Page conventions:**
+
+- Every page needs a `title` and `description` in frontmatter (the build will fail without them).
+- Pages live in section folders: `guides/`, `templates/`, `tools/`, `case-studies/`.
+- Use `sidebar.order: N` in frontmatter to control the order pages appear in the left nav.
+- When linking to repo artifacts (terraform files, .docx legal templates, etc.), use raw GitHub URLs — see `templates/example-template.md` for the pattern.
+
 ---
 
 ## Standards for Contributions

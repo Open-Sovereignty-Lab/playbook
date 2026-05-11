@@ -1,0 +1,132 @@
+---
+import '../styles/theme.css';
+import BrandWordmark from '../components/BrandWordmark.astro';
+import Footer from '../components/Footer.astro';
+
+const githubUrl = 'https://github.com/Open-Sovereignty-Lab/playbook';
+---
+
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Tribal Data Sovereignty Cloud Playbook</title>
+    <meta
+      name="description"
+      content="About the Open Sovereignty Lab and the Tribal Data Sovereignty Cloud Playbook."
+    />
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}/favicon.svg`} />
+  </head>
+  <body>
+    <nav class="osl-nav">
+      <BrandWordmark />
+      <div class="osl-nav-links">
+        <a class="osl-nav-link" href={`${import.meta.env.BASE_URL}/`}>Home</a>
+        <a class="osl-nav-link" href={`${import.meta.env.BASE_URL}/docs/`}>Docs</a>
+        <a class="osl-nav-link" href={githubUrl} target="_blank" rel="noopener">GitHub →</a>
+      </div>
+    </nav>
+
+    <main class="osl-page" data-pagefind-body>
+      <h1>About the Playbook</h1>
+
+      <p class="osl-lede">
+        The Tribal Data Sovereignty Cloud Playbook is an open-source framework helping Tribal
+        Nations adopt major cloud platforms — AWS, Azure, GCP, and Salesforce — without ceding
+        sovereign control over their data.
+      </p>
+
+      <h2>Why this exists</h2>
+      <p>
+        Standard cloud contracts give providers access to tribal enrollment records, health data,
+        cultural materials, and other sensitive information. This is not just a privacy issue — it
+        is a sovereignty issue. The playbook resolves the cloud-vs-sovereignty paradox through
+        cryptographic enforcement: tribes hold encryption keys outside the cloud, audit and deny
+        every access request, revoke access instantly when consent is withdrawn, and maintain
+        vendor independence through open data standards.
+      </p>
+
+      <h2>Who builds it</h2>
+      <p>
+        The Open Sovereignty Lab is an initiative of <a href="https://580strategies.com" target="_blank" rel="noopener">580 Strategies</a>,
+        developed in consultation with Tribal Nations and drawing on real implementations.
+      </p>
+
+      <h2>Get involved</h2>
+      <p>
+        See the <a href={`${import.meta.env.BASE_URL}/docs/`}>documentation</a> to read what's available, the
+        <a href="https://github.com/Open-Sovereignty-Lab/playbook/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener"> contributing guide</a> to add a template, fix an inaccuracy, or suggest a case study, or
+        <a href="https://580strategies.com" target="_blank" rel="noopener"> reach out via 580 Strategies</a> to discuss piloting the framework.
+      </p>
+    </main>
+
+    <Footer />
+
+    <style>
+      body {
+        background: var(--osl-bg);
+        color: var(--osl-text);
+        font-family: var(--osl-font-sans);
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .osl-nav {
+        padding: 1.25rem 2rem;
+        border-bottom: 1px solid var(--osl-border);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .osl-nav-links {
+        display: flex;
+        gap: 1.25rem;
+      }
+      .osl-nav-link {
+        font-size: 0.85rem;
+        color: var(--osl-muted);
+        text-decoration: none;
+      }
+      .osl-nav-link:hover {
+        color: var(--osl-text);
+      }
+
+      .osl-page {
+        flex: 1;
+        max-width: 720px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 4rem 2rem;
+        line-height: 1.7;
+      }
+      .osl-page h1 {
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
+        color: var(--osl-white);
+        margin: 0 0 1.5rem;
+      }
+      .osl-page h2 {
+        font-size: 1.25rem;
+        color: var(--osl-white);
+        margin: 2.5rem 0 0.75rem;
+      }
+      .osl-page p {
+        color: var(--osl-text);
+        margin: 0 0 1rem;
+      }
+      .osl-lede {
+        font-size: 1.1rem;
+        color: var(--osl-muted);
+        margin-bottom: 2rem;
+      }
+      .osl-page a {
+        color: var(--osl-accent-light);
+        text-decoration: none;
+      }
+      .osl-page a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </body>
+</html>

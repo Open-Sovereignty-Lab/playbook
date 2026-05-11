@@ -1,0 +1,125 @@
+/* OSL Playbook — brand theme.
+   Palette derived from 580 Strategies (parent organization).
+   Maps OSL tokens onto Starlight's CSS custom properties so all docs
+   pages inherit the brand without modifying Starlight components. */
+
+/* Self-hosted Roboto via @fontsource — three weights cover headings, body, emphasis */
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+/* OSL brand tokens */
+:root {
+  --osl-bg:           #0a0f1a;   /* deep navy, near-black */
+  --osl-surface:      #1a2332;   /* warmed slightly toward 580 slate */
+  --osl-border:       #2a3a52;
+  --osl-accent:       #5184a9;   /* primary blue (580 slate) */
+  --osl-accent-light: #478fcc;   /* hover/links (580 CTA blue) */
+  --osl-gold:         #f9a01b;   /* warm orange-gold (from 580) */
+  --osl-text:         #e8edf2;
+  --osl-muted:        #8a9ab5;
+  --osl-white:        #ffffff;
+
+  --osl-font-sans: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Starlight dark theme override (default mode) */
+:root[data-theme='dark'] {
+  --sl-color-bg:               var(--osl-bg);
+  --sl-color-bg-nav:           var(--osl-surface);
+  --sl-color-bg-sidebar:       var(--osl-surface);
+  --sl-color-bg-inline-code:   #1f2a3d;
+  --sl-color-hairline:         var(--osl-border);
+  --sl-color-hairline-light:   var(--osl-border);
+  --sl-color-text:             var(--osl-text);
+  --sl-color-text-accent:      var(--osl-accent-light);
+  --sl-color-accent:           var(--osl-accent);
+  --sl-color-accent-high:      var(--osl-accent-light);
+  --sl-color-accent-low:       #1c2a3d;
+  --sl-color-white:            var(--osl-white);
+  --sl-color-gray-1:           var(--osl-text);
+  --sl-color-gray-2:           #c5cfdc;
+  --sl-color-gray-3:           var(--osl-muted);
+  --sl-color-gray-4:           #5e7090;
+  --sl-color-gray-5:           #3a4a66;
+  --sl-color-gray-6:           var(--osl-surface);
+  --sl-color-text-invert:      var(--osl-white);
+
+  --sl-font:                   var(--osl-font-sans);
+}
+
+/* Starlight light theme — derived from same hues, daytime-readable for legal review */
+:root[data-theme='light'] {
+  --sl-color-bg:               #f5f7fa;
+  --sl-color-bg-nav:           var(--osl-white);
+  --sl-color-bg-sidebar:       var(--osl-white);
+  --sl-color-bg-inline-code:   #e8edf2;
+  --sl-color-hairline:         #c5cfdc;
+  --sl-color-hairline-light:   #e0e6ee;
+  --sl-color-text:             #1a2332;
+  --sl-color-text-accent:      #2d6a9f;
+  --sl-color-accent:           var(--osl-accent);
+  --sl-color-accent-high:      #2d6a9f;
+  --sl-color-accent-low:       #d1dae5;
+  --sl-color-white:            #1a2332;
+  --sl-color-gray-1:           #1a2332;
+  --sl-color-gray-2:           #2a3a52;
+  --sl-color-gray-3:           #5e7090;
+  --sl-color-gray-4:           #6e7f99;
+  --sl-color-gray-5:           #c5cfdc;
+  --sl-color-gray-6:           #f0f3f7;
+  --sl-color-text-invert:      var(--osl-white);
+
+  --sl-font:                   var(--osl-font-sans);
+}
+
+/* Reusable button styles for custom Astro pages (homepage, about, 404 — added in later tasks) */
+.osl-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 2rem;
+  border-radius: 8px;
+  font-family: var(--osl-font-sans);
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.osl-btn-primary {
+  background: var(--osl-accent);
+  color: var(--osl-white);
+  border: 1px solid var(--osl-accent-light);
+}
+.osl-btn-primary:hover {
+  background: var(--osl-accent-light);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 24px rgba(71,143,204,0.3);
+}
+.osl-btn-secondary {
+  background: transparent;
+  color: var(--osl-text);
+  border: 1px solid var(--osl-border);
+}
+.osl-btn-secondary:hover {
+  border-color: var(--osl-accent);
+  color: var(--osl-accent-light);
+  transform: translateY(-1px);
+}
+
+/* Gold badge — used on the homepage hero (added in a later task) */
+.osl-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(249, 160, 27, 0.10);
+  border: 1px solid rgba(249, 160, 27, 0.35);
+  color: var(--osl-gold);
+  font-family: var(--osl-font-sans);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+}

@@ -1,0 +1,72 @@
+---
+// Four-pillar grid component used on the homepage.
+// Pillars represent OSL's values; navigation uses resource-type categories.
+// The two are intentionally distinct.
+const pillars = [
+  {
+    icon: '🔐',
+    title: 'Data Sovereignty',
+    body: 'Tribes hold ownership of their data. Control enforced in technology, not just contract.',
+  },
+  {
+    icon: '📄',
+    title: 'Policy and Legal Frameworks',
+    body: 'Tribal data addendums, vendor certification requirements, and data classification policies.',
+  },
+  {
+    icon: '⚙️',
+    title: 'Concrete Technology Solutions',
+    body: 'Architecture guidance, technology solutions, and best practices for major platforms.',
+  },
+  {
+    icon: '🏛️',
+    title: 'Community Governed',
+    body: 'Open, transparent, expert-informed resources that Tribal Nations can adapt to guide successful, sovereignty-aligned implementations.',
+  },
+];
+---
+
+<div class="pillars">
+  {pillars.map((p) => (
+    <div class="pillar">
+      <span class="pillar-icon" aria-hidden="true">{p.icon}</span>
+      <h2>{p.title}</h2>
+      <p>{p.body}</p>
+    </div>
+  ))}
+</div>
+
+<style>
+  .pillars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1px;
+    background: var(--osl-border);
+    border-top: 1px solid var(--osl-border);
+    border-bottom: 1px solid var(--osl-border);
+    width: 100%;
+  }
+  .pillar {
+    background: var(--osl-surface);
+    padding: 2.25rem 2rem;
+    text-align: center;
+    font-family: var(--osl-font-sans);
+  }
+  .pillar-icon {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+    display: block;
+  }
+  .pillar h2 {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--osl-white);
+    margin: 0 0 0.5rem;
+  }
+  .pillar p {
+    font-size: 0.82rem;
+    color: var(--osl-muted);
+    line-height: 1.6;
+    margin: 0;
+  }
+</style>
