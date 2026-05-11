@@ -34,7 +34,7 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) co
 - Repository Structure section in README updated to reflect actual layout
 
 ### Removed
-- Legacy single-page `index.html` (superseded by Astro homepage; removed in Task 13)
+- Legacy single-page `index.html` (superseded by Astro homepage)
 
 ---
 
