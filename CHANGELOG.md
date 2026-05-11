@@ -6,6 +6,13 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) co
 
 ---
 
+## [0.3.0](https://github.com/Open-Sovereignty-Lab/playbook/compare/v0.2.0...v0.3.0) (2026-05-11)
+
+
+### Features
+
+* multipage Astro + Starlight site ([#5](https://github.com/Open-Sovereignty-Lab/playbook/issues/5)) ([9ddb89e](https://github.com/Open-Sovereignty-Lab/playbook/commit/9ddb89e0bf1f31f3534ef7c76293203f4c0bc2e7))
+
 ## [Unreleased]
 
 ### Coming Soon
