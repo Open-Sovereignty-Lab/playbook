@@ -33,13 +33,13 @@ export default defineConfig({
         {
           label: "Module 0: Sovereignty in the Digital Age",
           items: [
-            { slug: "docs/module-0" },                        // index.md (Overview)
-            { slug: "docs/module-0/tribal-sovereignty" },      // 0.1
-            { slug: "docs/module-0/data-sovereignty" },        // 0.2
-            { slug: "docs/module-0/digital-self-determination" }, // 0.3
-            { slug: "docs/module-0/ocap-analysis" },           // OCAP deep-dive
-            { slug: "docs/module-0/digital-colonization" },    // 0.4
-            { slug: "docs/module-0/glossary" },                // Glossary
+            { slug: "docs/guides/module-0" },                        // index.md (Overview)
+            { slug: "docs/guides/module-0/tribal-sovereignty" },      // 0.1
+            { slug: "docs/guides/module-0/data-sovereignty" },        // 0.2
+            { slug: "docs/guides/module-0/digital-self-determination" }, // 0.3
+            { slug: "docs/guides/module-0/ocap-analysis" },           // OCAP deep-dive
+            { slug: "docs/guides/module-0/digital-colonization" },    // 0.4
+            { slug: "docs/guides/module-0/glossary" },                // Glossary
           ],
         },
 
@@ -50,7 +50,7 @@ export default defineConfig({
           label: "Phase 1: Pre-Work",
           collapsed: true,
           items: [
-            { slug: "docs/phase-1" },                          // index.md (Overview)
+            { slug: "docs/guides/phase-1" },                          // index.md (Overview)
             // { slug: "docs/phase-1/organizational-readiness" },
             // { slug: "docs/phase-1/data-classification" },
             // { slug: "docs/phase-1/policy-legal-framework" },
@@ -66,7 +66,7 @@ export default defineConfig({
           label: "Phase 2: Execution",
           collapsed: true,
           items: [
-            { slug: "docs/phase-2" },
+            { slug: "docs/guides/phase-2" },
           ],
         },
 
@@ -77,7 +77,7 @@ export default defineConfig({
           label: "Phase 3: Monitoring and Evaluation",
           collapsed: true,
           items: [
-            { slug: "docs/phase-3" },
+            { slug: "docs/guides/phase-3" },
           ],
         },
 
