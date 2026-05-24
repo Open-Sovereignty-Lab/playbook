@@ -6,6 +6,13 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) co
 
 ---
 
+## [0.3.1](https://github.com/Open-Sovereignty-Lab/playbook/compare/v0.3.0...v0.3.1) (2026-05-24)
+
+
+### Bug Fixes
+
+* de-duplicate sidebar and document site structure ([#10](https://github.com/Open-Sovereignty-Lab/playbook/issues/10)) ([c9b9eb3](https://github.com/Open-Sovereignty-Lab/playbook/commit/c9b9eb30c91a9344ff022c9abbf897f154850f27))
+
 ## [0.3.0](https://github.com/Open-Sovereignty-Lab/playbook/compare/v0.2.0...v0.3.0) (2026-05-11)
 
 
