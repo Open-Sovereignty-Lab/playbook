@@ -42,6 +42,8 @@ All pull requests to `main` require review before merging.
 
 Every page on the website is a markdown file in this repo under `site/src/content/docs/docs/`. Adding a page is the same as editing one.
 
+> **New to the site's structure?** [`site/README.md`](site/README.md) is the full reference — it explains where files go, how a file's path becomes its URL, why there are two nested `docs/` folders, and how the sidebar is wired (including how to avoid duplicate nav entries). The quick version is below.
+
 **Easy path (no local setup):**
 
 1. Browse to a similar page on the live site (e.g., an existing guide).

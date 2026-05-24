@@ -23,83 +23,58 @@ export default defineConfig({
         baseUrl: 'https://github.com/Open-Sovereignty-Lab/playbook/edit/main/site/',
       },
       sidebar: [
-        { label: 'Guides', autogenerate: { directory: 'docs/guides' } },
-        { label: 'Templates', autogenerate: { directory: 'docs/templates' } },
-        { label: 'Tools', autogenerate: { directory: 'docs/tools' } },
-        { label: 'Case Studies', autogenerate: { directory: 'docs/case-studies' } },
-         // ------------------------------------------------------------------
-        // MODULE 0: Sovereignty in the Digital Age
+        // ------------------------------------------------------------------
+        // CURATED LEARNING PATH (Module 0 + Phases)
+        //
+        // Each group keeps a hand-written label, but its pages are pulled in
+        // with `autogenerate` and ordered by each page's `sidebar.order`
+        // frontmatter. That means adding or reordering a page is done in the
+        // page's frontmatter -- this config is NOT touched.
+        //
+        // Do NOT switch these back to manual `items: [{ slug }]` lists, and do
+        // NOT autogenerate their shared parent (docs/guides): either approach
+        // lists the same pages a second time and duplicates the sidebar.
         // ------------------------------------------------------------------
         {
           label: "Module 0: Sovereignty in the Digital Age",
-          items: [
-            { slug: "docs/guides/module-0" },                        // index.md (Overview)
-            { slug: "docs/guides/module-0/tribal-sovereignty" },      // 0.1
-            { slug: "docs/guides/module-0/data-sovereignty" },        // 0.2
-            { slug: "docs/guides/module-0/digital-self-determination" }, // 0.3
-            { slug: "docs/guides/module-0/ocap-analysis" },           // OCAP deep-dive
-            { slug: "docs/guides/module-0/digital-colonization" },    // 0.4
-            { slug: "docs/guides/module-0/glossary" },                // Glossary
-          ],
+          autogenerate: { directory: "docs/guides/module-0" },
         },
-
-        // ------------------------------------------------------------------
-        // PHASE 1: PRE-WORK (placeholder -- add pages as content is ready)
-        // ------------------------------------------------------------------
         {
           label: "Phase 1: Pre-Work",
           collapsed: true,
-          items: [
-            { slug: "docs/guides/phase-1" },                          // index.md (Overview)
-            // { slug: "docs/phase-1/organizational-readiness" },
-            // { slug: "docs/phase-1/data-classification" },
-            // { slug: "docs/phase-1/policy-legal-framework" },
-            // { slug: "docs/phase-1/ai-literacy" },
-            // { slug: "docs/phase-1/procurement-readiness" },
-          ],
+          autogenerate: { directory: "docs/guides/phase-1" },
         },
-
-        // ------------------------------------------------------------------
-        // PHASE 2: EXECUTION (placeholder)
-        // ------------------------------------------------------------------
         {
           label: "Phase 2: Execution",
           collapsed: true,
-          items: [
-            { slug: "docs/guides/phase-2" },
-          ],
+          autogenerate: { directory: "docs/guides/phase-2" },
         },
-
-        // ------------------------------------------------------------------
-        // PHASE 3: MONITORING AND EVALUATION (placeholder)
-        // ------------------------------------------------------------------
         {
           label: "Phase 3: Monitoring and Evaluation",
           collapsed: true,
-          items: [
-            { slug: "docs/guides/phase-3" },
-          ],
+          autogenerate: { directory: "docs/guides/phase-3" },
         },
 
         // ------------------------------------------------------------------
-        // EXISTING RESOURCE SECTIONS (preserved from current config)
+        // RESOURCE SECTIONS
+        //
+        // "Guides" is an explicit landing + reference list, NOT an
+        // autogenerate of docs/guides -- that directory contains the module-0/
+        // and phase-*/ folders above, so autogenerating it would list every
+        // module and phase page a second time. Templates / Tools / Case
+        // Studies are flat folders, so they autogenerate cleanly: drop a file
+        // in and it appears.
         // ------------------------------------------------------------------
         {
           label: "Guides",
-          autogenerate: { directory: "docs/guides" },
+          items: [
+            { slug: "docs/guides" },               // Guides landing (index.md)
+            { slug: "docs/guides/example-guide" }, // Contributor reference page
+          ],
         },
-        {
-          label: "Templates",
-          autogenerate: { directory: "docs/templates" },
-        },
-        {
-          label: "Tools",
-          autogenerate: { directory: "docs/tools" },
-        },
-        {
-          label: "Case Studies",
-          autogenerate: { directory: "docs/case-studies" },
-        },
+        { label: "Templates", autogenerate: { directory: "docs/templates" } },
+        { label: "Tools", autogenerate: { directory: "docs/tools" } },
+        { label: "Case Studies", autogenerate: { directory: "docs/case-studies" } },
       ],
     }),
   ],

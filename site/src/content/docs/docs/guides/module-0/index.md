@@ -3,6 +3,7 @@ title: "Module 0: Sovereignty in the Digital Age"
 description: "The foundational framing for the entire Playbook. Establishes what tribal sovereignty means, why it extends to data and digital systems, and how it governs every decision that follows."
 sidebar:
   order: 0
+  label: Overview
 ---
 
 This module is the foundation for everything that follows in the Playbook. Before we talk about AI tools, cloud platforms, procurement, or technical architecture, we need to establish the principle that governs all of those decisions: tribal sovereignty is inherent, it is not granted, and it extends into every domain where tribal nations exercise self-governance, including the digital.
