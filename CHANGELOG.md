@@ -6,6 +6,13 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) co
 
 ---
 
+## [0.3.2](https://github.com/Open-Sovereignty-Lab/playbook/compare/v0.3.1...v0.3.2) (2026-05-24)
+
+
+### Bug Fixes
+
+* nest Module 0 and Phase groups under the Guides sidebar section ([#12](https://github.com/Open-Sovereignty-Lab/playbook/issues/12)) ([fa8e53f](https://github.com/Open-Sovereignty-Lab/playbook/commit/fa8e53f61e6ec1f267473a170a87933cf3fd4668))
+
 ## [0.3.1](https://github.com/Open-Sovereignty-Lab/playbook/compare/v0.3.0...v0.3.1) (2026-05-24)
 
 
