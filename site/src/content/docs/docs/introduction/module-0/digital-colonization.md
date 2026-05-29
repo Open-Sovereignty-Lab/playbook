@@ -34,7 +34,7 @@ Free, Prior, and Informed Consent is the foundational principle of international
 
 Although FPIC originally developed in the context of land rights and natural resource extraction, it applies with equal force to the digital domain.[^2] In the modern information economy, Indigenous data functions as a valuable resource capable of being collected, analyzed, commercialized, and integrated into AI systems. This resource should be governed by the same consent-based principles that apply to Indigenous lands and natural resources.
 
-The Playbook's approach to FPIC is developed in detail in the [Execution phase](/playbook/docs/phase-2/), which includes a tiered consent model, implementation guides, and practical templates. The core principle established here in Module 0 is that FPIC is a minimum standard, not a checkbox. Consent must be ongoing, revocable, and accompanied by genuine tribal authority over the terms of engagement.
+The Playbook's approach to FPIC is developed in detail in the [Execution phase](/playbook/docs/introduction/phase-2/), which includes a tiered consent model, implementation guides, and practical templates. The core principle established here in Module 0 is that FPIC is a minimum standard, not a checkbox. Consent must be ongoing, revocable, and accompanied by genuine tribal authority over the terms of engagement.
 
 ## Open Legal and Policy Questions
 

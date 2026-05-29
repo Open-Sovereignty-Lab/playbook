@@ -24,48 +24,59 @@ export default defineConfig({
       },
       sidebar: [
         // ------------------------------------------------------------------
-        // GUIDES
+        // INTRODUCTION
         //
-        // Everything under docs/guides/ is nested inside this single top-level
-        // "Guides" group: the landing page, the contributor reference, then the
-        // curated Module 0 and Phase sub-groups.
+        // The foundational framing (Module 0) and the three implementation
+        // Phases live under docs/introduction/ and are nested inside this single
+        // top-level "Introduction" group: the section landing, then the curated
+        // Module 0 and Phase sub-groups. This is the orientation section, so it
+        // sits first in the nav, ahead of the supporting resource sections.
         //
         // Each sub-group keeps a hand-written label but pulls its pages from the
         // folder with `autogenerate`, ordered by each page's `sidebar.order`
         // frontmatter -- so adding or reordering a page is done in that page's
         // frontmatter, NOT here.
         //
-        // Do NOT autogenerate the parent `docs/guides` directory: it contains
-        // the module-0/ and phase-*/ folders below, so autogenerating it would
-        // list every module and phase page a second time and duplicate the nav.
-        // Rule: each directory is owned by exactly one sidebar entry.
+        // Do NOT autogenerate the parent `docs/introduction` directory: it
+        // contains the module-0/ and phase-*/ folders below, so autogenerating
+        // it would list every module and phase page a second time and duplicate
+        // the nav. Rule: each directory is owned by exactly one sidebar entry.
         // ------------------------------------------------------------------
         {
-          label: "Guides",
+          label: "Introduction",
           items: [
-            { slug: "docs/guides" },               // Guides landing (index.md)
-            { slug: "docs/guides/example-guide" }, // Contributor reference page
+            { slug: "docs/introduction" }, // Section landing (index.md)
             {
               label: "Module 0: Sovereignty in the Digital Age",
-              autogenerate: { directory: "docs/guides/module-0" },
+              autogenerate: { directory: "docs/introduction/module-0" },
             },
             {
               label: "Phase 1: Pre-Work",
               collapsed: true,
-              autogenerate: { directory: "docs/guides/phase-1" },
+              autogenerate: { directory: "docs/introduction/phase-1" },
             },
             {
               label: "Phase 2: Execution",
               collapsed: true,
-              autogenerate: { directory: "docs/guides/phase-2" },
+              autogenerate: { directory: "docs/introduction/phase-2" },
             },
             {
               label: "Phase 3: Monitoring and Evaluation",
               collapsed: true,
-              autogenerate: { directory: "docs/guides/phase-3" },
+              autogenerate: { directory: "docs/introduction/phase-3" },
             },
           ],
         },
+
+        // ------------------------------------------------------------------
+        // GUIDES
+        //
+        // Long-form guidance plus the contributor reference page. docs/guides/
+        // is now a flat folder (the module-0/ and phase-*/ content moved to the
+        // Introduction section above), so it autogenerates cleanly: drop a guide
+        // in and it appears, ordered by each page's `sidebar.order` frontmatter.
+        // ------------------------------------------------------------------
+        { label: "Guides", autogenerate: { directory: "docs/guides" } },
 
         // ------------------------------------------------------------------
         // OTHER RESOURCE SECTIONS
