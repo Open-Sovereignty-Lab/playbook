@@ -6,6 +6,13 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) co
 
 ---
 
+## [0.4.0](https://github.com/Open-Sovereignty-Lab/playbook/compare/v0.3.2...v0.4.0) (2026-05-29)
+
+
+### Features
+
+* promote Module 0 and Phases into a top-level Introduction section ([#14](https://github.com/Open-Sovereignty-Lab/playbook/issues/14)) ([5b07138](https://github.com/Open-Sovereignty-Lab/playbook/commit/5b07138bb91577978cb3602ce36f1fa88be0809f))
+
 ## [0.3.2](https://github.com/Open-Sovereignty-Lab/playbook/compare/v0.3.1...v0.3.2) (2026-05-24)
 
 
