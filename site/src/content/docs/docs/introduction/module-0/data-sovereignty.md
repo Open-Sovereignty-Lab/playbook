@@ -30,7 +30,7 @@ A critical dimension of data sovereignty lies in the power to determine tribal m
 
 Tribal nations are not starting from the same place. Some operate with paper-based records and limited connectivity. Others run cloud-native infrastructure with integrated platforms. Most are somewhere in between. This spectrum is not a failure. It reflects the diverse realities of Indian Country, and any framework for data sovereignty must meet tribes where they are rather than assuming a uniform starting point.
 
-The Playbook's approach is built around this reality. The [Pre-Work phase](/playbook/docs/phase-1/) includes a current-state inventory and readiness assessment specifically designed to help each tribe identify where it stands and what steps make sense from that position.
+The Playbook's approach is built around this reality. The [Pre-Work phase](/playbook/docs/introduction/phase-1/) includes a current-state inventory and readiness assessment specifically designed to help each tribe identify where it stands and what steps make sense from that position.
 
 ---
 

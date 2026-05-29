@@ -52,7 +52,7 @@ How should access work when data has been aggregated, anonymized, or transformed
 
 How should possession be understood when data exists in distributed cloud systems across multiple jurisdictions? Physical possession may give way to cryptographic or contractual controls, but the underlying principle of tribal custody must be preserved.
 
-These questions are explored further in the Playbook's sections on [Technical Architecture](/playbook/docs/phase-2/) and [Contract and Data Custody Frameworks](/playbook/docs/phase-2/).
+These questions are explored further in the Playbook's sections on [Technical Architecture](/playbook/docs/introduction/phase-2/) and [Contract and Data Custody Frameworks](/playbook/docs/introduction/phase-2/).
 
 ---
 

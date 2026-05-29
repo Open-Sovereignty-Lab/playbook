@@ -14,9 +14,9 @@ This is a living document. Terms will be added and refined as the Playbook devel
 
 ## Sovereignty and Governance Terms
 
-**Data Sovereignty.** The right of a people or government to control the collection, use, ownership, and access to data about their citizens, territory, and resources. For tribal nations, data sovereignty is an extension of inherent political sovereignty into the digital domain. See [Data Sovereignty](/playbook/docs/module-0/data-sovereignty/) for the full treatment.
+**Data Sovereignty.** The right of a people or government to control the collection, use, ownership, and access to data about their citizens, territory, and resources. For tribal nations, data sovereignty is an extension of inherent political sovereignty into the digital domain. See [Data Sovereignty](/playbook/docs/introduction/module-0/data-sovereignty/) for the full treatment.
 
-**Digital Colonization.** The extraction, use, or commercialization of Indigenous data, knowledge, or cultural materials by outside entities without the consent or meaningful participation of the affected Indigenous community. Mirrors historical patterns of resource extraction applied to the digital domain. See [Digital Colonization and Consent](/playbook/docs/module-0/digital-colonization/).
+**Digital Colonization.** The extraction, use, or commercialization of Indigenous data, knowledge, or cultural materials by outside entities without the consent or meaningful participation of the affected Indigenous community. Mirrors historical patterns of resource extraction applied to the digital domain. See [Digital Colonization and Consent](/playbook/docs/introduction/module-0/digital-colonization/).
 
 **FPIC (Free, Prior, and Informed Consent).** An international human rights standard recognizing that Indigenous peoples must give consent before any activity that affects their lands, resources, cultures, or communities. Consent must be free from coercion, given before the activity begins, based on full information disclosure, and grounded in meaningful participation. In the Playbook, FPIC is treated as a minimum standard for all AI and data engagements, not a one-time checkbox.
 
@@ -24,7 +24,7 @@ This is a living document. Terms will be added and refined as the Playbook devel
 
 **Inherent Sovereignty.** The principle that tribal nations possessed self-governing authority before the formation of the United States and retain that authority today. Sovereignty is not granted by Congress, the courts, or the Constitution; it is recognized by them.
 
-**OCAP (Ownership, Control, Access, Possession).** A set of principles for Indigenous data governance developed by the First Nations Information Governance Centre in Canada. See [OCAP Analysis](/playbook/docs/module-0/ocap-analysis/) for a detailed comparative analysis.
+**OCAP (Ownership, Control, Access, Possession).** A set of principles for Indigenous data governance developed by the First Nations Information Governance Centre in Canada. See [OCAP Analysis](/playbook/docs/introduction/module-0/ocap-analysis/) for a detailed comparative analysis.
 
 **Tribal Law.** The laws, codes, ordinances, and governance structures established by individual tribal nations under their sovereign authority. In the context of AI and data governance, tribal law is the appropriate governing framework because no federal or state regulations currently address AI in relation to Indigenous communities.
 
@@ -38,13 +38,13 @@ This is a living document. Terms will be added and refined as the Playbook devel
 
 **API (Application Programming Interface).** A structured way for software systems to communicate with each other. In the Playbook, API architecture is discussed in the context of controlling how tribal data moves between systems, particularly the principle of inbound-only data flows.
 
-**Artificial Intelligence (AI).** A broad term for computer systems that perform tasks typically associated with human cognition, such as summarization, pattern recognition, language translation, and prediction. AI systems are not thinking entities. They are sophisticated statistical engines that identify patterns in training data and generate outputs based on those patterns. See the [AI Literacy](/playbook/docs/phase-1/) section for a deeper treatment.
+**Artificial Intelligence (AI).** A broad term for computer systems that perform tasks typically associated with human cognition, such as summarization, pattern recognition, language translation, and prediction. AI systems are not thinking entities. They are sophisticated statistical engines that identify patterns in training data and generate outputs based on those patterns. See the [AI Literacy](/playbook/docs/introduction/phase-1/) section for a deeper treatment.
 
 **CASB (Cloud Access Security Broker).** A security tool that sits between an organization's on-premises infrastructure and a cloud provider, enforcing security policies, monitoring data movement, and providing visibility into how cloud services are being used.
 
 **Cloud Computing.** The delivery of computing resources (storage, processing, software) over the internet, hosted on servers owned by a third-party provider rather than on the organization's own hardware. Cloud computing raises specific sovereignty concerns because data may be stored in locations and jurisdictions outside tribal control.
 
-**Data Classification.** The process of categorizing data according to its sensitivity and governance requirements. The Playbook uses a four-tier model: public, internal, sensitive, and sovereign. See [Data Classification](/playbook/docs/phase-1/) for the framework.
+**Data Classification.** The process of categorizing data according to its sensitivity and governance requirements. The Playbook uses a four-tier model: public, internal, sensitive, and sovereign. See [Data Classification](/playbook/docs/introduction/phase-1/) for the framework.
 
 **Data Localization.** The practice of requiring that data about a community's citizens or operations be stored on physical servers within a defined geographic or jurisdictional boundary. Data localization is one mechanism for ensuring that tribal data remains under tribal control.
 

@@ -34,7 +34,7 @@ Other international bodies have followed this trajectory. The United Nations Gen
 
 ## Comparative Frameworks
 
-For a detailed analysis of the Canadian OCAP principles (Ownership, Control, Access, and Possession) and how they compare to the U.S. tribal context, see the dedicated [OCAP Analysis](/playbook/docs/module-0/ocap-analysis/) page. OCAP is one of the most influential Indigenous data governance models in the world, and understanding its strengths, gaps, and applicability is essential for adapting its lessons.
+For a detailed analysis of the Canadian OCAP principles (Ownership, Control, Access, and Possession) and how they compare to the U.S. tribal context, see the dedicated [OCAP Analysis](/playbook/docs/introduction/module-0/ocap-analysis/) page. OCAP is one of the most influential Indigenous data governance models in the world, and understanding its strengths, gaps, and applicability is essential for adapting its lessons.
 
 ---
 
