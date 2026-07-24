@@ -6,7 +6,9 @@ sidebar:
   label: "Tribal Sovereignty"
 ---
 
-### TL;DR Indigenous nations have an inherent right to self-govern their own affairs (and therefore data). They operate as complete forms of government and interface as equals with other governments rather than being subordinate to them.
+:::tip[TL;DR]
+Indigenous nations have an inherent right to self-govern their own affairs and digital estates. They operate as complete forms of government and interface as equals with other governments rather than being subordinate to them.
+:::
 
 ## What is Tribal Sovereignty?
 
@@ -54,7 +56,6 @@ Ultimately, recognizing tribal sovereignty as inherent, pre-constitutional, and 
 ---
 
 ## References
-
 [^1]: *U.S. Declaration of Independence*, Paragraph 2 (1776). [https://www.archives.gov/founding-docs/declaration-transcript](https://www.archives.gov/founding-docs/declaration-transcript)
 
 [^2]: *Worcester v. Georgia*, 31 U.S. 515 (1832). [https://supreme.justia.com/cases/federal/us/31/515/](https://supreme.justia.com/cases/federal/us/31/515/)

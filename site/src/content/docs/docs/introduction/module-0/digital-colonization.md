@@ -70,7 +70,6 @@ The tiered consent model discussed at the 2026 Tribal Innovation Summit offers o
 ---
 
 ## References
-
 [^1]: United Nations Declaration on the Rights of Indigenous Peoples (UNDRIP); see also FAO, "Free, Prior, and Informed Consent: An Indigenous Peoples' Right and a Good Practice for Local Communities" (2016). [https://www.un.org/development/desa/indigenouspeoples/publications/2016/10/free-prior-and-informed-consent-an-indigenous-peoples-right-and-a-good-practice-for-local-communities-fao/](https://www.un.org/development/desa/indigenouspeoples/publications/2016/10/free-prior-and-informed-consent-an-indigenous-peoples-right-and-a-good-practice-for-local-communities-fao/)
 
 [^2]: See IHRB, "What is Free, Prior, and Informed Consent?" [https://www.ihrb.org/resources/what-is-free-prior-and-informed-consent-fpic](https://www.ihrb.org/resources/what-is-free-prior-and-informed-consent-fpic)

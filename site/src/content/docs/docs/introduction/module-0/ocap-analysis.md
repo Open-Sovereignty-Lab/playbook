@@ -76,7 +76,6 @@ The rapid development of artificial intelligence and large-scale digital data sy
 ---
 
 ## References
-
 [^1]: First Nations Information Governance Centre, OCAP Principles. [https://fnigc.ca/ocap-training/](https://fnigc.ca/ocap-training/)
 
 [^2]: Canada School of Public Service, Indigenous Data Sovereignty. [https://www.csps-efpc.gc.ca/tools/articles/indigenous-data-sovereignty-eng.aspx](https://www.csps-efpc.gc.ca/tools/articles/indigenous-data-sovereignty-eng.aspx)
