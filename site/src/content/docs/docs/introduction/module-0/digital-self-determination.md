@@ -62,7 +62,6 @@ Ultimately, while federal preemption issues will continue to shape the contours 
 ---
 
 ## References
-
 [^1]: United Nations Declaration on the Rights of Indigenous Peoples (UNDRIP), Articles 3, 4, and 31. [https://social.desa.un.org/issues/indigenous-peoples/united-nations-declaration-on-the-rights-of-indigenous-peoples](https://social.desa.un.org/issues/indigenous-peoples/united-nations-declaration-on-the-rights-of-indigenous-peoples)
 
 [^2]: United Nations Permanent Forum on Indigenous Issues. [https://www.un.org/es/node/233085](https://www.un.org/es/node/233085); see also UNPFII Report E/2025/43. [https://docs.un.org/en/E/2025/43](https://docs.un.org/en/E/2025/43)

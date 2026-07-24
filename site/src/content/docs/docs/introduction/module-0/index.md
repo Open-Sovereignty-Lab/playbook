@@ -38,4 +38,4 @@ Each page in this module follows a consistent pattern. The main body of each pag
 
 ---
 
-*Module 0 content is developed in partnership with tribal law scholars, legal students, sovereignty experts, and the Open Sovereignty Lab partner network. Presently we have begun efforts US tribal law as the starting point, with international frameworks as overlay. Other national contexts and legal underpinning are to follow as we expand collaboration. See the [Concept Note](https://opensovereigntylab.org) for the full collaboration model.*
+*Module 0 content is developed in partnership with tribal law scholars, legal students, sovereignty experts, and the Open Sovereignty Lab partner network. Presently we have begun efforts with US tribal law as the starting point, with international frameworks as overlay. Other national contexts and legal underpinning are to follow as we expand collaboration. See the [Concept Note](https://opensovereigntylab.org) for the full collaboration model.*

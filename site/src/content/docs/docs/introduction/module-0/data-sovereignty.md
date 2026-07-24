@@ -58,8 +58,6 @@ As tribes retain authority over their internal governance systems, including adm
 ---
 
 ## References
-
-
 [^1]: *Treating data like land — data sovereignty in the AI age*, Carbajal, Indian Country Today News / ictnews.org (2026). [https://ictnews.org/news/treating-data-like-land-data-sovereignty-in-the-ai-age/](https://ictnews.org/news/treating-data-like-land-data-sovereignty-in-the-ai-age/)
 
 [^2]: *Actualizing Indigenous Data Sovereignty Through Tribal Self-Governance*, Ulbricht, New Mexico Law Review, Volume 55, Issue 1 (Winter 2025). [https://digitalrepository.unm.edu/nmlr/vol55/iss1/4](https://digitalrepository.unm.edu/nmlr/vol55/iss1/4)
